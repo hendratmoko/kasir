@@ -1,7 +1,7 @@
 <?php
 session_start();
 include "koneksi.php"; // Menghubungkan ke database
-
+//sudah dicek pMoko
 if (isset($_POST['login'])) { // Cek apakah tombol login diklik
     $nama = $_POST['username']; // Ambil username dari form
     $pass = $_POST['password']; // Ambil password dari form
